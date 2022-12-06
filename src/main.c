@@ -36,18 +36,5 @@ int main(int argc, char* argv[])
     glutDisplayFunc(display);
     gluOrtho2D(0,300,0,350);
     glutMainLoop();
-
-
-//    glutInit(&argc, argv);
-//    //position of the window
-//    glutInitWindowPosition(550,200);
-//    //size of the window
-//    glutInitWindowSize(300,350);
-//    //cereate the window
-//    glutCreateWindow("Tic Tac Toe");
-//    //call the function drawPoint
-//    glutDisplayFunc(display);
-//    //initialize the window
-//    glutMainLoop();
     return 0;
 }
