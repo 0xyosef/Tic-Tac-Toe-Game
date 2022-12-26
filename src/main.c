@@ -24,7 +24,7 @@ void Intialize()
 /*
 	Called when any key from keyboard is pressed
 */
-void OnKeyPress(unsigned char key,int x,int y)
+void OnKeyPress(char key,int x,int y)
 {
     switch(key)
     {
